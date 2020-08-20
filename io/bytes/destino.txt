@@ -1,0 +1,7 @@
+copiando
+el contenido de un archivo
+a otro achivo
+con bytescopiando
+el contenido de un archivo
+a otro achivo
+con bytes

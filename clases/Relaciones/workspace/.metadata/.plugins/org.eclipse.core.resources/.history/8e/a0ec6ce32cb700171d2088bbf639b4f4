@@ -1,0 +1,13 @@
+package a_persona_if;
+
+public class PersonaEjecutable {
+
+	public static void main(String[] args) {
+
+		Persona laPersona = new Persona();
+		
+		laPersona.setNombre("Abi DS");
+
+	}
+
+}

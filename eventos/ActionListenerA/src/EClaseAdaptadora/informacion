@@ -1,0 +1,5 @@
+
+La clase adaptadora sirve para que la clase sobre escriba solo los metodos requeridos
+y no todos los metodos que tiene la interface listener.
+
+ya que ActionListener no tiene niguna clase adaptadora no se hara el ejemplo.

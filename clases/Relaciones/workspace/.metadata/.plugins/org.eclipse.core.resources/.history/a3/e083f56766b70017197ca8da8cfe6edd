@@ -1,0 +1,11 @@
+package d_ciudad;
+
+import java.util.ArrayList;
+
+public class Ciudad {
+	
+	private String estado;
+	private String nombre;
+	
+	private ArrayList<Colonia> lasColonias;
+}

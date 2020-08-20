@@ -1,0 +1,10 @@
+package a_calificacion;
+
+import java.util.Scanner;
+
+public class EjecutableA {
+	public static void main(String[] args) {
+		
+		Scanner leer = new Scanner(system.in);
+	}
+}

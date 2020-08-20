@@ -1,0 +1,17 @@
+package a_calificacion;
+
+public class Examen extends Calificacion {
+	
+	private int totalPreguntas;
+	private double puntosPorPregunta;
+	private int preguntasFalladas;
+	
+	public Examen(int totalPreguntas, int preguntasFalladas) {
+		double puntuacion;
+		
+		this.totalPreguntas = totalPreguntas;
+		this.preguntasFalladas = preguntasFalladas;
+		
+		puntosPorPregunta = 1000.0 / totalPreguntas;
+	}
+}

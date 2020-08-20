@@ -1,0 +1,17 @@
+http://www.thejavageek.com/2013/07/21/using-javac-and-java-commands-to-compile-and-launch-java-programs/
+
+
+http://stackoverflow.com/questions/10546720/how-to-compile-packages-in-java
+
+
+Best is to compile and run the classes from outside the packages :
+
+First you compile with javac :
+
+$javac MyPack/AccountBalance.java
+
+this will create a new file in the MyPack folder called AccountBalance.class
+
+then you can run it :
+
+$java MyPack.AccountBalance

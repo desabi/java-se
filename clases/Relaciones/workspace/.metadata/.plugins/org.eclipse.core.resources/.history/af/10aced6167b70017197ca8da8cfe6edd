@@ -1,0 +1,31 @@
+package d_ciudad;
+
+import java.util.ArrayList;
+
+public class Ejecutable {
+	public static void main(String[] args) {
+		
+		Ciudad laCiudad = new Ciudad();
+		
+		Colonia colonia1 = new Colonia();
+		Colonia colonia2 = new Colonia();
+			
+		Ciudadano ciudadano1 = new Ciudadano();
+		Ciudadano ciudadano2 = new Ciudadano();
+		Ciudadano ciudadano3 = new Ciudadano();
+		Ciudadano ciudadano4 = new Ciudadano();
+		
+		ArrayList<Colonia> lasColonias = new ArrayList<>();
+		ArrayList<Ciudadano> losCiudadanos = new ArrayList<>();
+		
+		laCiudad.setEstado("Guerrero");
+		laCiudad.setNombre("Tlapa");
+		
+		colonia1.setNombre("Tepeya");
+		colonia2.setUbicacion("Este");
+		
+		colonia2.setNombre("Aviacion");
+		colonia2.setUbicacion("Norte");
+		
+	}
+}

@@ -1,0 +1,14 @@
+package a_cuenta_if;
+
+public class CuentaEjecutable {
+	public static void main(String[] args) {
+		
+		Cuenta miCuenta = new Cuenta();
+		
+		miCuenta.setPropietario("Abi DS");
+		
+		miCuenta.depositar(300);
+		miCuenta.depositar(150);
+		
+	}
+}

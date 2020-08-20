@@ -1,0 +1,19 @@
+package a_calificacion;
+
+import java.util.Scanner;
+
+public class EjecutableA {
+	public static void main(String[] args) {
+		
+		Scanner leer = new Scanner(System.in);
+		Calificacion laCalificacion = new Calificacion();
+		
+		System.out.println("Escribe la puntuacion: ");
+		double puntuacion = leer.nextDouble();
+		
+		laCalificacion.setPuntuacion(puntuacion);
+		
+		System.out.println("## DATOS DE LA CALIFICACION ##");
+		System.out.println("Tu puntuacion es: " + puntuacion);
+	}
+}

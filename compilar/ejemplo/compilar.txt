@@ -1,0 +1,13 @@
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemplo>javac -d bin -cp src src\com\abi\Principal.java
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemplo>java -cp bin com.abi.Principal
+com.abi.main.Principal
+com.abi.Mensaje
+Buenos dias.
+com.abi.MensajeX
+Buenas Tardes.
+com.abi.MensajeZ
+Buenas Noches...
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemplo>

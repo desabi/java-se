@@ -1,0 +1,9 @@
+package e_empleado_if;
+
+public class Empleado {
+
+	private String nombre;
+	private double sueldoPorHora
+	private double horasTrabajadas;
+	
+}

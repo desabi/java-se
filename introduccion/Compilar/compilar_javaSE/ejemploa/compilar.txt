@@ -1,0 +1,12 @@
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemploa>javac -d . Persona.java
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemploa>javac -d . PersonaMain.java
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemploa>java com.PersonaMain
+Escribe tu nombre: abi
+Escribe tu edad: 27
+Nombre: abi
+Edad: 27
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemploa>

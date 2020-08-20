@@ -1,0 +1,11 @@
+
+
+-> Un parametro es un dato que va entre los parentesis de un metodo
+   Estos datos pueden ser String, int, double, float, long, etc.
+
+   void metodo(tipo nombre)
+
+-> Tambien se puede usar una Clase (Objeto) como parametro
+
+-> Dicha clase puede ser una que nosotros hayamos hecho
+   O una clase que Java ya tenga

@@ -1,0 +1,8 @@
+package b_banco_empleado;
+
+public class Ejecutable {
+	public static void main(String[] args) {
+		
+		Banco elBanco = new Banco();
+	}
+}

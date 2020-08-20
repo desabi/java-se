@@ -1,0 +1,8 @@
+package d_ciudad;
+
+public class Ciudadano {
+	
+	private String nombre;
+	private int edad;
+	
+}

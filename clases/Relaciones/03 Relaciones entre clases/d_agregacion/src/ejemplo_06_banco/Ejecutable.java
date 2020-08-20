@@ -1,0 +1,41 @@
+package ejemplo_06_banco;
+
+import java.util.ArrayList;
+
+/**
+ *
+ * @author abi
+ */
+public class Ejecutable {
+
+    public static void main(String[] args) {
+        
+        Banco elBanco = new Banco();
+
+        Empleado empleado1 = new Empleado();
+        Empleado empleado2 = new Empleado();
+        Empleado empleado3 = new Empleado();
+
+        ArrayList<Empleado> losEmpleados = new ArrayList<>();
+
+        elBanco.setNombre("BANCOMER");
+        elBanco.setDireccion("Centro No 34");
+
+        empleado1.setNombre("ABI DS");
+        empleado1.setPuesto("Cajero");
+
+        empleado2.setNombre("ANA JR");
+        empleado2.setPuesto("Gerente");
+
+        empleado3.setNombre("Luis");
+        empleado3.setPuesto("Contador");
+
+        losEmpleados.add(empleado1);
+        losEmpleados.add(empleado2);
+        losEmpleados.add(empleado3);
+
+        elBanco.setEmpleados(losEmpleados);
+
+        elBanco.imprimir();
+    }
+}

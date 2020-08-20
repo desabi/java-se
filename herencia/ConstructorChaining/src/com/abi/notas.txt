@@ -1,0 +1,13 @@
+(1) Performs Person's tasks
+(2) Invoke Employee's overloaded constructor
+(3) Performs Employee's tasks
+(4) Performs Faculty's tasks
+
+Te program produces the preceding output. Why?.
+
+New Faculty() invokes Faculty's no-arg constructor.
+Since Faculty is a subclass of Employee,
+Employee's no-arg constructor is invoked before any statements in Faculty's constructor are excecuted
+Employee's no-arg constructor invokes Employee's second constructor (with parameter String)
+Since Employee is a subclass of Person,
+Person's no-arg constructor is invoked before any statements in Employee's second constructor are executed.

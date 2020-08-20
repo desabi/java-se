@@ -1,0 +1,19 @@
+
+1. Se crea la interface estrategia
+   EstrategiaVuelo
+
+2. Se crean las clases concretas que implementan la interface EstrategiaVuelo
+   EstrategiaVueloSI
+   EstrategiaVueloNO
+
+3. Se crea el contexto
+   Animal
+
+
+4. Se crean las clases que extienden de la clase Contexto [Animal]
+   Pajaro
+   Perro
+
+5. Se crea la clase principal
+   Main
+   

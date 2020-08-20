@@ -1,0 +1,30 @@
+
+SUPERCLASE
+* Tiene constructor parametrizado
+* No tiene constructor por defecto
+
+* ¿Por que java no crea un constructor por defecto como en las subclases?
+  ¿Sera porque ya se definio un constructor parametrizado?
+
+* Si una clase esta diseñada para ser extendida, especificar un constructor por defecto
+
+SUBCLASE
+* No tiene constructor por defecto
+* Java crea un constructor por defecto automaticamente
+* Este constructor por defecto llama al constructor por defecto de la superclase
+* Pero como la superclase no tiene constructor por defecto, marca error aqui
+  en la subclase
+
+----------------------------------------------------------------------------------
+NET.ABI 
+* En este ejemplo es al reves
+
+* SUBCLASE:
+* Tiene un constructor parametrizado
+* No tiene constructor por defecto
+
+* SUPERCLASE:
+* Tiene constructor por defecto, creado manualmente
+
+
+

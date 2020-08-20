@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="b_alumno_if.Alumno"/>
+<fullyQualifiedTypeName name="a_persona_if.Persona"/>
+<fullyQualifiedTypeName name="d_usuario_if.UsuarioEjecutable"/>
+<fullyQualifiedTypeName name="d_usuario_if.Usuario"/>
+<fullyQualifiedTypeName name="f_producto_if.Producto"/>
+<fullyQualifiedTypeName name="a_taxi_chofer.Chofer"/>
+<fullyQualifiedTypeName name="a_taxi_chofer.Taxi"/>
+<fullyQualifiedTypeName name="b_banco_empleado.Banco"/>
+<fullyQualifiedTypeName name="b_banco_empleado.Empleado"/>
+<fullyQualifiedTypeName name="c_instituto_carreras.Instituto"/>
+<fullyQualifiedTypeName name="c_instituto_carreras.Carrera"/>
+<fullyQualifiedTypeName name="d_ciudad.Ciudad"/>
+<fullyQualifiedTypeName name="d_ciudad.Colonia"/>
+<fullyQualifiedTypeName name="d_ciudad.Ciudadano"/>
+<fullyQualifiedTypeName name="javax.swing.text.ElementIterator"/>
+<fullyQualifiedTypeName name="a_persona.NombreCompleto"/>
+<fullyQualifiedTypeName name="a_persona.Persona"/>
+<fullyQualifiedTypeName name="b_carro.Motor"/>
+<fullyQualifiedTypeName name="b_carro.Carro"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

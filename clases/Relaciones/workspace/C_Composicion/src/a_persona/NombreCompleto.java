@@ -1,0 +1,34 @@
+package a_persona;
+
+public class NombreCompleto {
+
+	private String nombre;
+	private String apellidoPaterno;
+	private String apellidoMaterno;
+
+	public NombreCompleto(String nombre, String apellidoPaterno, String apellidoMaterno) {
+		this.nombre = nombre;
+		this.apellidoPaterno = apellidoPaterno;
+		this.apellidoMaterno = apellidoMaterno;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public String getApellidoPaterno() {
+		return apellidoPaterno;
+	}
+
+	public String getApellidoMaterno() {
+		return apellidoMaterno;
+	}
+
+	public void imprimir() {
+		System.out.println("## NOMBRE COMPLETO ##");
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Apellido Paterno: " + apellidoPaterno);
+		System.out.println("Apellido Materno: " + apellidoMaterno);
+		System.out.println();
+	}
+}

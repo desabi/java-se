@@ -1,0 +1,29 @@
+package b_alumno_if;
+
+public class Alumno {
+
+	private String nombre;
+	private double calificacion;
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public double getCalificacion() {
+		return calificacion;
+	}
+
+	public void setCalificacion(double calificacion) {
+		if ( (calificacion<0) && (calificacion>10)) {
+			
+		} else {
+			this.calificacion = calificacion;
+		}
+		
+	}
+
+}

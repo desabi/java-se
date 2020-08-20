@@ -1,0 +1,8 @@
+package e_empleado_if;
+
+public class EmpleadoEjecutable {
+	public static void main(String[] args) {
+		
+		Empleado elEmpleado = new Empleado();
+	}
+}

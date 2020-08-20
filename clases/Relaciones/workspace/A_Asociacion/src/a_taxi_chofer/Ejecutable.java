@@ -1,0 +1,19 @@
+package a_taxi_chofer;
+
+public class Ejecutable {
+	public static void main(String[] args) {
+		
+		Taxi elTaxi = new Taxi();
+		Chofer elChofer = new Chofer();
+		
+		elTaxi.setNumero(35);
+		elTaxi.setPlacas("VMN76");
+		
+		elChofer.setNombre("ABI DS");
+		elChofer.setTelefono(7571251798L);
+		
+		System.out.println(elTaxi.toString());
+		System.out.println(elChofer.toString());
+		
+	}
+}

@@ -1,0 +1,7 @@
+package a_taxi_chofer;
+
+public class Chofer {
+	
+	private String nombre;
+	private long telefono;
+}

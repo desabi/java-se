@@ -1,0 +1,16 @@
+Autor: ${user}
+Fecha: ${date}
+Hora: ${time}
+
+@autor ${user}
+
+
+/**
+ *
+ * Autor:    ${user}
+ * Archivo:  ${nameAndExt}
+ * Paquete:  ${package}
+ * Fecha:    ${date}
+ * Hora:     ${time}
+ *
+ */

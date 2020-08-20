@@ -1,0 +1,45 @@
+package e_empleado_if;
+
+public class Empleado {
+
+	private String nombre;
+	private double sueldoPorHora;
+	private double horasTrabajadas;
+	
+	private double sueldo;
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public double getSueldoPorHora() {
+		return sueldoPorHora;
+	}
+
+	public void setSueldoPorHora(double sueldoPorHora) {
+		this.sueldoPorHora = sueldoPorHora;
+	}
+
+	public double getHorasTrabajadas() {
+		return horasTrabajadas;
+	}
+
+	public void setHorasTrabajadas(double horasTrabajadas) {
+		this.horasTrabajadas = horasTrabajadas;
+	}
+	
+	public void calcularSueldo(){
+		sueldo = sueldoPorHora * horasTrabajadas;
+		
+		System.out.println(" ## SUELDO DEL EMPLEADO ## ");
+		System.out.println("Sueldo: " + sueldo);
+		
+		if () {
+			
+		}
+	}
+}

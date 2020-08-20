@@ -1,0 +1,30 @@
+package a_taxi_chofer;
+
+public class Taxi {
+
+	private String sitio;
+	private String numero;
+	private Chofer elChofer;
+	
+	public String getSitio() {
+		return sitio;
+	}
+
+	public void setSitio(String sitio) {
+		this.sitio = sitio;
+	}
+
+	public String getNumero() {
+		return numero;
+	}
+
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+
+	@Override
+	public String toString() {
+		return "Taxi [sitio=" + sitio + ", numero=" + numero + "]";
+	}
+
+}

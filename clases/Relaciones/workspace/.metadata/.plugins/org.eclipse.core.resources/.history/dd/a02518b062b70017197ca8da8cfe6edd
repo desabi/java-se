@@ -1,0 +1,11 @@
+package b_banco_empleado;
+
+import java.util.ArrayList;
+
+public class Banco {
+	
+	private String nombre;
+	private String direccion;
+	
+	private ArrayList<Empleado>
+}

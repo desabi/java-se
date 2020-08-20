@@ -1,0 +1,14 @@
+Por otro lado nos encontramos que Java utiliza nativamente UTF-16.
+"The native character encoding of the Java programming language is UTF-16".
+
+Para seguir la uniformidad, la lectura/escritura de ficheros desde java la debemos hacer en UTF-8:
+
+la lectura la podemos hacer por medio de un InputStreamReader pasándole un FileInputStream
+
+para la escritura por medio de un OutputStreamWriter con un FileOutputStream
+
+y diciéndoles a ambos contructores con qué codificación, en nuestro caso  UTF-8:
+
+InputStreamReader isr = new InputStreamReader(myFileInputStream, "UTF-8")
+...
+OutputStreamWriter osw = new OutputStreamWriter(myFileOutputStream, "UTF-8")

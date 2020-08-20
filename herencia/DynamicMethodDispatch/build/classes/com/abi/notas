@@ -1,0 +1,26 @@
+
+* Dynamic method dispatch is the mecanism by wich a call to an overridden method
+  is resolved at runtime, rther than compile time.
+
+* Dynamic method dispatch is importan because this is how Java implements 
+  run-time polymorphism.
+
+* A superclass reference variable can refer to a subclass object.
+
+* Java uses this fact to resolve calls to overriden methosd at runtime.
+
+* When an overriden methos is called hrough a superclass reference,
+* Java determines which version of thad method to execute based upon the type
+  of the object being referred to at the time the call occurs.
+* Thus, this determination is made at runtime.
+
+* When different types of object are referred to, different versions of an
+  overriden method will be called. 
+
+* In othe word, is the type of the object being referref to (not the type of the
+  reference variable) that determines wich version of an overridden method will
+  be executed.
+
+* If a superlass contains a method that is overridden by a subclass, then when
+  different typed of object are referred to through a superclass reference variable,
+  different versions of the method are executed. 

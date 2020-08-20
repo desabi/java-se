@@ -1,0 +1,25 @@
+package d_ciudad;
+
+public class Ejecutable {
+	public static void main(String[] args) {
+		
+		Ciudad laCiudad = new Ciudad();
+		
+		Colonia colonia1 = new Colonia();
+		Colonia colonia2 = new Colonia();
+			
+		Ciudadano ciudadano1 = new Ciudadano();
+		Ciudadano ciudadano2 = new Ciudadano();
+		Ciudadano ciudadano3 = new Ciudadano();
+		Ciudadano ciudadano4 = new Ciudadano();
+		
+		laCiudad.setEstado("Guerrero");
+		laCiudad.setNombre("Tlapa");
+		
+		colonia1.setNombre("Tepeyac");
+		colonia2.setUbicacion("Sur");
+		
+		colonia2.setNombre("Aviacion");
+		
+	}
+}

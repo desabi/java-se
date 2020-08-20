@@ -1,0 +1,10 @@
+
+Asociacion entre clases
+
+Asociacion = trabaja con
+
+La clase Persona     trabaja con    la clase Direccion
+La clase Taxi        trabaja con    la Clase Chofeer
+La clase Impresora   trabaja con    la clase Documento
+La clase Maestro     trabaja con    la clase Materia
+La clase Cuenta      trabaja con    la clase propietario

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;a_carro&apos; to &apos;b_carro&apos;&#x0D;&#x0A;- Original project: &apos;C_Composicion&apos;&#x0D;&#x0A;- Original element: &apos;C_Composicion/src/a_carro&apos;&#x0D;&#x0A;- Renamed element: &apos;C_Composicion/src/b_carro&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;a_carro&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;a_carro" name="b_carro" qualified="false" references="true" stamp="1508724397690" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+
+Nota1:
+* Si quremos hacer un cambio en el comportamiento Volable (interface), entonces
+  tenemos que hacerlo en todas las clases que implementan dicho comportamiento
+
+Nota2:
+* sabemos que no todas las subclases deben tener el comportamiento de volar o quackear,
+  la herencia no es la respuesta correcta.
+* Mientras tenemos subclases que implementan la interfaces Volable y Quckable resulve parte del
+  problema, pero descruye completamente el reuso de codigo para esos comportamientos.
+  Entonces solo crea una pesadilla de mantenimiento diferente.
+
+Nota3:
+* Puede haber mas de un comportamiento en cuanto a la forma de volar, incluso entre los
+  patos que vuelan.
+
+Nota4:
+* Las interfaces Volable y Quackable parecen prometedoras, al principio. 
+  Solo los patos que realmente vuelan son Volables, etc.
+* Excepto que las interfaces no tienen implementacion de codigo, así que no hay
+  reutilizacion de codigo
+* Esto significa que cuando necesitmos modificar un comportamiento, nos veremos forzados
+  a cambiar todo en las diferentes subclases donde el comportamient (interface) esta definida.

@@ -1,0 +1,18 @@
+
+
+desacoplar el código de construcción del código de representación.
+
+
+1ro Crear el producto: Auto.java
+
+2do Crear el Builder: AutoBuilder.java
+
+3ro Crear los Concrete Builder
+    ToyotaBuilder.java
+    JaguarBuilder.java
+
+4to Crear el Director: AutoDirector.java
+
+5to Crear el ejecutable: Ejecutable.java
+
+

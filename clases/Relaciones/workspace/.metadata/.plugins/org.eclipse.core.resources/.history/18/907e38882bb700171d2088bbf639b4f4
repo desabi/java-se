@@ -1,0 +1,11 @@
+package b_alumno_if;
+
+public class AlumnoEjecutable {
+
+	public static void main(String[] args) {
+
+		Alumno elAlumno = new Alumno();
+
+	}
+
+}

@@ -1,0 +1,13 @@
+alt shif r : renombrar una variable
+
+alt shift j: para poner el nombre del autor o comentarios en los metodos
+
+ctrl shit f: formatear codigo
+
+ctrl f11: para ejecutar archivo main actual
+
+alt shift r : renombrar
+
+ctrl alt flecha_abajo : duplicar linea (desacticar atajo graficos)
+
+ctrl 2 - L : asignar a una variable local

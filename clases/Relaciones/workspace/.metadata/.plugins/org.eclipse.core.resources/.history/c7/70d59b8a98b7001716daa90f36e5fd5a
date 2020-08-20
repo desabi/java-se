@@ -1,0 +1,7 @@
+package b_carro;
+
+public class Motor {
+	
+	private String marca;
+	private int potencia;
+}

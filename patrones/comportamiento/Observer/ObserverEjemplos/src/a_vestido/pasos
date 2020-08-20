@@ -1,0 +1,17 @@
+
+1ro: Creamos la interface
+     SujetoObservable.java
+
+2do: Creamos la clase concreta que implementara la interface SujetoObservable
+     SujetoObservableConcreto.java
+
+3ro: Crear la interface
+     Observadora.java
+
+4to: Crear la clase concreta que implementara la interface Observadora
+     ObservadoraConcreta.java
+
+5to: Crear el Main
+     Main.java
+
+

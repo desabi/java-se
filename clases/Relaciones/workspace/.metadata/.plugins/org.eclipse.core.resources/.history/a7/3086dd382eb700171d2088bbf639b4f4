@@ -1,0 +1,8 @@
+package d_usuario_if;
+
+public class UsuarioEjecutable {
+	public static void main(String[] args) {
+		
+	}
+	
+}

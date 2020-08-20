@@ -1,0 +1,9 @@
+package b_alumno_if;
+
+public class Alumno {
+	
+	private String nombre;
+	private double calificacion;
+	
+	
+}

@@ -1,0 +1,26 @@
+
+public class Calificacion {
+	
+	private double puntuacion;
+
+	public double getPuntuacion() {
+		return puntuacion;
+	}
+
+	public void setPuntuacion(double puntuacion) {
+		this.puntuacion = puntuacion;
+	}
+	
+	public char getNota() {
+		
+		char letra;
+		
+		if (puntuacion >= 9) {
+			letra = 'A';
+		} else if (puntuacion >= 8) {
+			letra = 'B';
+		} else if (puntuacion >= 7) {
+			letra = 'C'
+		}
+	}
+}

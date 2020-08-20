@@ -1,0 +1,52 @@
+package f_producto_if;
+
+public class Producto {
+
+	private String nombre;
+	private double precio;
+
+	private double total;
+	
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public double getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+	
+	public void imprimir() {
+		System.out.println("## DATOS DEL PRODUCTO ##");
+		System.out.println("El nombre: " + nombre);
+		System.out.println("El precio: " + precio);
+		System.out.println();
+	}
+	
+	public void comprar(int cantidad) {
+		System.out.println(" ## INFORMACION DE LA COMPRA ## ");
+		System.out.println("Producto adquirido: " + nombre);
+		System.out.println("Cantidad comprada: " + cantidad);
+		
+		total = precio * cantidad;
+		
+		/* si compra 50 o mas unidades se le hace un descuento de 20 pesos */
+		if (cantidad > 50) {
+			System.out.println("Total a pagar sin descuento: " + total);
+			
+			total = total - 20;
+			System.out.println("Total a pagar con descuento: " + total);
+		}else {
+			System.out.println("Total a pagar: " + total);
+		}
+		
+		System.out.println();
+	}
+}

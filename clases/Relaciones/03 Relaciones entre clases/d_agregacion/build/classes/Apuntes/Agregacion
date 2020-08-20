@@ -1,0 +1,15 @@
+
+AGREGACION
+
+Es cuando una INSTANCIA de una clase
+es un ATRIBUTO en otra clase
+
+Tengo dos clases
+
+1ra: Direccion
+2da: Persona
+
+la persona puede tener varios datos como
+ - nombre(String), edad(int), estatura (double), etc,
+ - y tambien puede tener una direccion,
+   en este caso se utilizaria la clase Direccion como tipo de dato

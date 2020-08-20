@@ -1,0 +1,22 @@
+
+you need to type this command line
+javac -d . Test.java
+that will gernreate the package for you
+example for that
+
+package com.sun.java.test
+public class Test {
+public static void manin(String args[] )
+{
+System.out.println( "hello world" );
+}
+
+when you complie this class by using javac -d . Test.java , that will gerrante
+this folder com/sun/java/test/Test.class
+
+to run this Class , you need to type this command line
+java com.sun.java.test.Test
+
+
+
+De: http://forums.devx.com/showthread.php?27494-how-to-compile-a-package-by-java

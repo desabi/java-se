@@ -1,0 +1,9 @@
+package d_ciudad;
+
+public class Colonia {
+	
+	private String nombre;
+	private String ubicacion;
+	
+	
+}

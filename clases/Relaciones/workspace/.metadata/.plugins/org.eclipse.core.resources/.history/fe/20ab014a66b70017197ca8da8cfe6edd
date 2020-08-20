@@ -1,0 +1,7 @@
+package d_ciudad;
+
+public class Ejecutable {
+	public static void main(String[] args) {
+		
+	}
+}

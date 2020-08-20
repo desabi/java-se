@@ -1,0 +1,20 @@
+package b_banco_empleado;
+
+public class Ejecutable {
+	public static void main(String[] args) {
+		
+		Banco elBanco = new Banco();
+		Empleado empleado1 = new Empleado();
+		Empleado empleado2 = new Empleado();
+		Empleado empleado3 = new Empleado();
+		
+		elBanco.setNombre("BANCOMER");
+		elBanco.setDireccion("Centro No 34");
+		
+		empleado1.setNombre("ABI DS");
+		empleado1.setPuesto("Cajero");
+		
+		empleado2.setNombre("ANA JR");
+		
+	}
+}

@@ -1,0 +1,15 @@
+package a_cuenta_if;
+
+public class Cuenta {
+	
+	private String propietario;
+	private double saldo;
+	
+	public String getPropietario() {
+		return propietario;
+	}
+	public void setPropietario(String propietario) {
+		this.propietario = propietario;
+	}
+		
+}

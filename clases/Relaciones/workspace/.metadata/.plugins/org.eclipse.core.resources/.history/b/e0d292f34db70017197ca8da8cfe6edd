@@ -1,0 +1,13 @@
+package a_taxi_chofer;
+
+public class Ejecutable {
+	public static void main(String[] args) {
+		
+		Taxi elTaxi = new Taxi();
+		Chofer elChofer = new Chofer();
+		
+		elTaxi.setNumero(35);
+		elTaxi.setPlacas("VMN76");
+		
+	}
+}

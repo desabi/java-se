@@ -1,0 +1,6 @@
+package a_calificacion;
+
+public class Examen extends Calificacion {
+	
+	
+}

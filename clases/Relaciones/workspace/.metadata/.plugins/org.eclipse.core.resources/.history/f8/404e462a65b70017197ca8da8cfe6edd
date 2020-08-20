@@ -1,0 +1,21 @@
+package c_instituto_carreras;
+
+import java.util.ArrayList;
+
+public class Ejecutable {
+	public static void main(String[] args) {
+		
+		Instituto elInstituto = new Instituto();
+		
+		Carrera sistemas = new Carrera();
+		Carrera informatica = new Carrera();
+		Carrera contabilidad = new Carrera();
+		Carrera psicologia = new Carrera();
+		Carrera derecho = new Carrera();
+		
+		ArrayList<Carrera> lasCarreras = new ArrayList<>();
+				
+		elInstituto.setNombre("Instituto de Tlapa");
+		elInstituto.setClave(83435);
+	}
+}

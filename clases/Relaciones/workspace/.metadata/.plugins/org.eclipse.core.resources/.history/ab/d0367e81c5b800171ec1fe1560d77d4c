@@ -1,0 +1,14 @@
+package a_calificacion;
+
+import java.util.Scanner;
+
+public class EjecutableA {
+	public static void main(String[] args) {
+		
+		Scanner leer = new Scanner(System.in);
+		Calificacion laCalificacion = new Calificacion();
+		
+		System.out.println("Escribe la calificacion: ");
+		double entrada = leer.nextDouble();
+	}
+}

@@ -1,0 +1,22 @@
+package c_libro;
+
+import java.util.ArrayList;
+
+public class Libro {
+	
+	private String nombre;
+	private double precio;
+	
+	private ArrayList<Capitulo> capitulos;
+
+	public Libro(String nombre, double precio, ArrayList<Capitulo> capitulos) {
+		this.nombre = nombre;
+		this.precio = precio;
+
+		capitulos = new ArrayList<>();
+		
+		capitulos.addAll(capitulos);
+	}
+	
+	
+}

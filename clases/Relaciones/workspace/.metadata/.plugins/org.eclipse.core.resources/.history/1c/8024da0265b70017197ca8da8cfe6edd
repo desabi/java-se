@@ -1,0 +1,16 @@
+package c_instituto_carreras;
+
+public class Ejecutable {
+	public static void main(String[] args) {
+		
+		Instituto elInstituto = new Instituto();
+		
+		Carrera sistemas = new Carrera();
+		Carrera informatica = new Carrera();
+		Carrera contabilidad = new Carrera();
+		Carrera psicologia = new Carrera();
+		Carrera derecho = new Carrera();
+				
+		
+	}
+}

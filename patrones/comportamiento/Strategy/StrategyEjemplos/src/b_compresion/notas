@@ -1,0 +1,14 @@
+
+1. Se crea la interface para la estrategia
+   EstrategiaCompresion
+
+2. Crear las clases concretas que implementen la interface EstrategiaCompresion
+   EstrategiaCompresionZIP
+   EstrategiaCompresionRAR
+
+3. Crear la clase que se empleara como Contexto
+   EstrategiaCompresionContexto
+
+4. Crear la clase Main, en ella se llama a la clase contexto
+   * y se le establece con el metodo se alguna estrtegia de compresión.
+

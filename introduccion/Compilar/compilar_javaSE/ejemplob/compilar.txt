@@ -1,0 +1,11 @@
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemplob>javac paqueteUno/Animal.java
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemplob>javac paqueteDos/AnimalMain.java
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemplob>java paqueteDos.AnimalMain
+Animal creado.
+
+C:\Users\Abi\Documents\JavaSE\codigos\compilar\ejemplob>
+
+

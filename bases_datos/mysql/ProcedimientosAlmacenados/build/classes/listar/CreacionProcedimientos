@@ -1,0 +1,24 @@
+
+PROCEDIMIENTO DE UNA TABLA
+
+mysql> CREATE PROCEDURE listarPersona()
+    -> BEGIN
+    -> SELECT idpersona, nombre from persona;
+    -> END
+    -> //
+
+
+PROCEDIMIENTO DE DOS TABLAS
+
+mysql> CREATE PROCEDURE listarAlumnoInformacion()
+    -> BEGIN
+    -> SELECT persona.idpersona, persona.nombre, informacion.edad, informacion.estatura, informacion.idpersona
+    -> FROM persona
+    -> JOIN informacion
+    -> ON persona.idpersona = informacion.idpersona ;
+    -> END
+    -> //
+
+
+
+        

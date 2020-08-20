@@ -1,0 +1,26 @@
+
+Nota1:
+* Los patos ahora deben volar.
+* se debe agregar esta característica.
+
+1er Error:
+* No todas las subclases de Pato deben/pueden volar.
+* Un pato de goma no puede volar.
+
+Posible Solucion:
+* En la clase PatoDegoma se puede sobre escribir el metodo volar
+* y dentro del metodo no hacer nada, dejar el metodo vacio.
+
+Otro error:
+* ¿Pero que pasaria si agregaramos patos de madera decorados al programa?
+* Estos no pueden volar o hacer quack
+
+Posible Solucion:
+* En la clase PatoDeMaderaDecorado se puede sobre escribir el metodo quack y volar
+* y dentro de los metodos no hacer nada, dejar vacios los metodos.
+
+DESVENTAJAS
+1. Codigo duplicado atraves de las subclases.
+2. Los cambios pueden involuntariamente afectar a otros Patos
+3. Es dificil saber el comportamiento de todos los comportamientos de los patos.
+4. Los cambios de comportamiento en tiempo de ejecucion son dificiles.

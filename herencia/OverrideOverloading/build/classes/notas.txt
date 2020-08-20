@@ -1,0 +1,7 @@
+
+* Overridden methods area in different classes related by inheritance.
+* Overridden methods have the same signature and return type
+
+* Overloaded methods can be either in the same clase or different classes 
+  related by inheritance.
+* Overloaded methods have the same name but a different parameter list

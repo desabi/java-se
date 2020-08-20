@@ -1,0 +1,24 @@
+
+
+La clase principal implementa la interface ActionListener
+
+* VentanaInsertarA
+  La clase principal implementa la interface ActionListener 
+
+  El codigo del boton se personaliza:
+  botonInsertar.addActionListener(this);
+
+* VentanaInsertarB
+  Se crea una clase interna dentro de la clase principal
+  La clase interna implementa la interface ActionListener
+
+  El codigo del boton ser personaliza:
+  ClaseInterna laClaseInterna = new ClaseInterna();
+  botonInsertar.addActionListener(laClaseInterna);
+
+
+
+Nota: Se deja pendiente para cuando sean mas de un boton
+* VentanaInsertarC
+  Se crea una clase aparte que implementa la interface ActionListener
+  

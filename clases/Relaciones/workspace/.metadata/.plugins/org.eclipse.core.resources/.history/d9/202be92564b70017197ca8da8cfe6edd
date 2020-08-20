@@ -1,0 +1,7 @@
+package c_instituto_carreras;
+
+public class Carrera {
+	
+	private String nombre;
+	private int anios;
+}

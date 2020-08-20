@@ -1,0 +1,46 @@
+package b_banco_empleado;
+
+import java.util.ArrayList;
+
+public class Banco {
+	
+	private String nombre;
+	private String direccion;
+	
+	private ArrayList<Empleado> losEmpleados;
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+
+	public ArrayList<Empleado> getEmpleados() {
+		return losEmpleados;
+	}
+
+	public void setEmpleados(ArrayList<Empleado> losEmpleados) {
+		this.losEmpleados = losEmpleados;
+	}
+	
+	public void imprimir() {
+		System.out.println("## DATOS DEL BANCO ##");
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Direccion: " + direccion);
+		System.out.println("");
+		
+		for (Empleado empleado : losEmpleados) {
+			empleado.imprimir();
+		}
+	}
+}

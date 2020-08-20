@@ -1,0 +1,14 @@
+package d_ciudad;
+
+public class Ejecutable {
+	public static void main(String[] args) {
+		
+		Ciudad laCiudad = new Ciudad();
+		
+		Colonia colonia1 = new Colonia();
+		Colonia colonia2 = new Colonia();
+		Colonia colonia3 = new Colonia();
+		
+		Ciudadano ciudadano1 = new Ciudadano();
+	}
+}

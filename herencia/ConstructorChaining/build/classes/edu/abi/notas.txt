@@ -1,0 +1,15 @@
+
+If a class is designed to be extended, it is better to provide a 
+no-arg constructor to avoid programming errors.
+
+Since no constructor is explicitly defined in Apple, 
+Apple’s default no-arg constructor is defined implicitly.
+
+
+En este ejemplo, la superclase Fruit tiene el constructor parametrizado, y no tiene constructor por defecto
+Y la subclase Apple no tiene constructor definido, solo el que crea java por defecto
+y no tiene parametros
+
+Marca error en la subclase
+
+

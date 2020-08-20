@@ -1,0 +1,8 @@
+package a_calificacion;
+
+public class Examen extends Calificacion {
+	
+	private int totalPreguntas;
+	private double puntosPorPregunta;
+	
+}

@@ -1,0 +1,9 @@
+package c_libro;
+
+public class Capitulo {
+	
+	private String nombre;
+	private int paginas;
+	
+	
+}
